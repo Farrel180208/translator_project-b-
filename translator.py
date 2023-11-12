@@ -32,3 +32,28 @@ def index():
 
     return render_template('index.html', lang_destinations=lang_destinations, lang_descriptions=lang_descriptions)
 
+@app.route('/translate', methods=['POST'])
+def translate():
+    text = request.form['text']
+    
+    lang_destinations = {
+        '1': 'en',
+        '2': 'de',
+        '3': 'zh-CN',
+        '4': 'es',
+        '5': 'fr',
+        '6': 'ar',
+        '7': 'pt',
+        '8': 'ja',
+    }
+
+    lang_descriptions = {
+        'en': 'Inggris',
+        'de': 'Jerman',
+        'zh-CN': 'Cina (Mandarin)',
+        'es': 'Spanyol',
+        'fr': 'Prancis',
+        'ar': 'Arab',
+        'pt': 'Portugis',
+        'ja': 'Jepang',
+    }
