@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Riwayat Terjemahan</title>
+</head>
+<body class="center-content">
+    <h1>Riwayat Terjemahan</h1>
+    <ul>
+        {% for original, translated, dest in translation_history %}
+            <li>
+                <p>Dari Bahasa Indonesia: '{{ original }}'</p>
+                <p>Ke {{ dest }}: '{{ translated }}'</p>
+            </li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Kembali ke Halaman Utama</a>
+</body>
+</html>

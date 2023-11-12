@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Translation App</title>
+</head>
+<body class="center-content">
+    <h1>Translation Web</h1>
+    <form action="/translate" method="post">
+        <label for="text">Masukkan teks Bahasa Indonesia:</label>
+        <input type="text" name="text" required>
+        <br>
+        <p>Pilih bahasa tujuan :</p>
+        {% for num, lang_code in lang_destinations.items() %}
+            <input type="checkbox" name="destination" value="{{ num }}"> {{ lang_code }}<br>
+        {% endfor %}
+        <br>
+        <button type="submit">Terjemahkan</button>
+    </form>
+    <br>
+    <a href="/history">Lihat Riwayat Terjemahan</a>
+</body>
+</html>

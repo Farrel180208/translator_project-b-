@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Hasil Terjemahan</title>
+</head>
+<body class="center-content">
+    <h1>Hasil Terjemahan</h1>
+    <p>Original Text: {{ text }}</p>
+    <ul>
+        {% for dest_lang, translated_text in translations %}
+            <li>
+                {% if dest_lang == 'en' %}
+                    Terjemahan Bahasa Indonesia ke Bahasa Inggris: {{ translated_text }}
+                {% else %}
+                    Terjemahan Bahasa Indonesia ke Bahasa {{ lang_descriptions[dest_lang] }}: {{ translated_text }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Kembali ke Halaman Utama</a>
+</body>
+</html>

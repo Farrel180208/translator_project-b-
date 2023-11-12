@@ -1,0 +1,28 @@
+/* static/style.css */
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('/static/background.avif'); /* Ganti dengan path gambar yang sesuai */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #006863;
+    font-weight: bold;
+    font-size: 36px; /* Ganti dengan ukuran yang diinginkan, misalnya 24px */
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-size: 24px;
+}
