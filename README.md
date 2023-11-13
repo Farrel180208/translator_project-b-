@@ -19,7 +19,7 @@ pip install googletrans==4.0.0-rc1
 // file kedua : style.css (copy semua codenya melalui ikon copy)
 // lalu masukkan kode atau gambar yang telah saya upload di repository saya ke masing-masing file tersebut dan jangan lupa save atau ctrl+s
 
-#step 3
+# step 3
 // buat folder baru kedua di folder project_uas 
 // folder baru kedua : templates (ada di repository github saya klik saja untuk mengetahui file-file didalamnya)
 // setelah itu masukan 3 file yaitu dibawah ini:
