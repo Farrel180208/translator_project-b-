@@ -6,7 +6,6 @@
 // masukkan kode translator.py dengan cara mengcopy kodenya dari repository github saya
 // dalam repository saya terpampang jelas ada file bernama translator.py (third commit); salin saja semua kodenya dengan mengklik icon copy
 // jangan lupa ctrl + s atau save setelah memasukkan kode ke file di vs code
-
 // lalu install beberapa aplikasi menggunakan pip di bash ataupun terminal folder project_uas seperti dibawah ini
 pip install Flask
 pip install googletrans==4.0.0-rc1
