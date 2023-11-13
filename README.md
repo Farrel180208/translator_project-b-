@@ -1,6 +1,6 @@
 # translator_project-b-
 
-#step 1
+# step 1
 // mula mula pergi ke vscode buat folder bernama project_uas
 // lalu disana kita membuat file translator.py
 // masukkan kode translator.py dengan cara mengcopy kodenya dari repository github saya
