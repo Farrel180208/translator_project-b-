@@ -1,31 +1,31 @@
 # translator_project-b-
 
 # step 1
-mula mula pergi ke vscode buat folder bernama project_uas
-lalu disana kita membuat file translator.py
-masukkan kode translator.py dengan cara mengcopy kodenya dari repository github saya
-dalam repository saya terpampang jelas ada file bernama translator.py (third commit); salin saja semua kodenya dengan mengklik icon copy
-jangan lupa ctrl + s atau save setelah memasukkan kode ke file di vs code
-lalu install beberapa aplikasi menggunakan pip di bash ataupun terminal folder project_uas seperti dibawah ini
-pip install Flask
-pip install googletrans==4.0.0-rc1
+* mula mula pergi ke vscode buat folder bernama project_uas
+* lalu disana kita membuat file translator.py
+* masukkan kode translator.py dengan cara mengcopy kodenya dari repository github saya
+* dalam repository saya terpampang jelas ada file bernama translator.py (third commit); salin saja semua kodenya dengan mengklik icon copy
+* jangan lupa ctrl + s atau save setelah memasukkan kode ke file di vs code
+* lalu install beberapa aplikasi menggunakan pip di bash ataupun terminal folder project_uas seperti dibawah ini
+* pip install Flask
+* pip install googletrans==4.0.0-rc1
 
 # step 2
-buat folder baru pertama di folder project_uas :
-folder baru pertama : static (ada direpository github saya, klik untuk bisa mengetahui file-file didalamnya)
-setelah itu masukan 2 file yaitu dibawah ini:
-file pertama : background.avif (di view raw klik saja nanti muncul gambar lalu save as ke folder static)
-file kedua : style.css (copy semua codenya melalui ikon copy)
-lalu masukkan kode atau gambar yang telah saya upload di repository saya ke masing-masing file tersebut dan jangan lupa save atau ctrl+s
+* buat folder baru pertama di folder project_uas :
+* folder baru pertama : static (ada direpository github saya, klik untuk bisa mengetahui file-file didalamnya)
+* setelah itu masukan 2 file yaitu dibawah ini:
+* file pertama : background.avif (di view raw klik saja nanti muncul gambar lalu save as ke folder static)
+* file kedua : style.css (copy semua codenya melalui ikon copy)
+* lalu masukkan kode atau gambar yang telah saya upload di repository saya ke masing-masing file tersebut dan jangan lupa save atau ctrl+s
 
 # step 3
-buat folder baru kedua di folder project_uas 
-folder baru kedua : templates (ada di repository github saya klik saja untuk mengetahui file-file didalamnya)
-setelah itu masukan 3 file yaitu dibawah ini:
-file pertama : index.html (klik filenya lalu copy semua code menggunakan ikon copy)
-file kedua : history.html (klik filenya lalu copy semua code menggunakan ikon copy)
-file ketiga : result.html (klik filenya lalu copy semua code menggunakan ikon copy)
-lalu masukkan kode yang telah saya upload di repository saya ke masing-masing file tersebut di vs code dan jangan lupa save atau ctrl+s
+* buat folder baru kedua di folder project_uas 
+* folder baru kedua : templates (ada di repository github saya klik saja untuk mengetahui file-file didalamnya)
+* setelah itu masukan 3 file yaitu dibawah ini:
+* file pertama : index.html (klik filenya lalu copy semua code menggunakan ikon copy)
+* file kedua : history.html (klik filenya lalu copy semua code menggunakan ikon copy)
+* file ketiga : result.html (klik filenya lalu copy semua code menggunakan ikon copy)
+* lalu masukkan kode yang telah saya upload di repository saya ke masing-masing file tersebut di vs code dan jangan lupa save atau ctrl+s
 
 # step 4
 di step ini anda harus open integrated terminal dari folder project_uas
